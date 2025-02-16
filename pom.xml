@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.srujith2k</groupId>
+    <artifactId>dbone-example</artifactId>
+    <version>1.0.0</version>
+
+    <name>DBOne-Example</name>
+    <description>Example usage of DBOne-Core for secure database connectivity</description>
+
+    <properties>
+        <java.version>23</java.version>
+    </properties>
+
+    <dependencies>
+        <!-- DBOne-Core Dependency -->
+        <dependency>
+            <groupId>io.github.srujith2k</groupId>
+            <artifactId>dbone-core</artifactId>
+            <version>1.0.0-patch1</version>
+        </dependency>
+
+        <!-- JUnit for Testing -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.11.4</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>
